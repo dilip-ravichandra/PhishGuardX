@@ -1,0 +1,32 @@
+# Node
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Env files (never commit secrets)
+.env
+.env.local
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# AI model artifacts (large binary files)
+ai-service/model_artifacts/*
+!ai-service/model_artifacts/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Test coverage
+coverage/

@@ -1,0 +1,24 @@
+{
+  "name": "phishguardx",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PhishGuardX - AI-Powered Enterprise Email Phishing Detection Platform",
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "build:backend": "npm run build --workspace=backend",
+    "lint:frontend": "npm run lint --workspace=frontend",
+    "lint:backend": "npm run lint --workspace=backend",
+    "test:backend": "npm run test --workspace=backend"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  }
+}
